@@ -1,0 +1,295 @@
+<!--NUR ALEEYA NATASYA BINTI MOHD HISHAMUDDIN-->
+<!--RCDCS2512A-->
+<!--7:51p.m 20/5/2024 (MONDAY)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paper People</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <script>
+        function submitForm() {
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+
+            // Check if email or message is empty
+            if (email === "" || message === "") {
+                alert("Please enter both email and message.");
+                return false; // Prevent form submission
+            }
+            alert("Email: " + email + "\nMessage: " + message);
+
+            return true; // Allow form submission
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class = "container">
+
+    </div>
+    <nav>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+                <a href="#">Products</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#featured-products">Featured Products</a></li>
+                    <li><a href="#papers">Papers & Notebook</a></li>
+                    <li><a href="#pen">Pens & Pencils</a></li>
+                    <li><a href="#decorations">Decorations</a></li>
+                </ul>
+            </li>
+            <li><a href="#branch">Branch</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="home">
+            <hr>
+            <h1>Welcome to Paper People !</h1>
+            <p>Step into a world where creativity meets quality, and every piece of stationery tells a story. At Paper People, we celebrate<br>
+               the art of journaling and the joy of putting pen to paper. Our collection is thoughtfully curated to inspire your creative <br>
+               journey, whether you're looking for vibrant washi tapes, elegant brush pens, unique markers, premium papers, or adorable stickers.<br>
+               We believe that the right tools can ignite your imagination and bring your ideas to life. Explore our offerings, and let us help you <br>
+               create something beautiful. Welcome to Paper People – your ultimate stationery destination!
+            </p>
+        </section>
+    </main>
+
+    <section id="about">
+        <hr>
+        <h2>About Us</h2>
+        <p> At Paper People, we believe in the magic of paper and the joy of journaling. Founded in February 2021, our journey began with a passion for all things <br>
+            stationery and a dream to share that love with the world. Starting as an online store, we quickly grew a community of fellow stationery enthusiasts <br>
+            who cherish the art of writing, journaling, and creativity. <br><br>
+            In October 2023, we took a significant step forward by opening our first physical store, creating a cozy space where you can experience the charm of <br>
+            our products firsthand. Our founder, a dedicated journaler and avid collector of journaling supplies, curates a delightful selection of items including <br>
+            washi tapes, brush pens, unique markers, premium paper, and adorable stickers. <br><br>
+            Whether you’re a seasoned journaler or just beginning your creative journey, Paper People is here to inspire and equip you with the finest stationery <br>
+            essentials. Explore our online store or visit our physical location to discover a world of creativity, inspiration, and endless possibilities.<br><br>
+        </p>
+        <h4>Welcome to Paper People – where your stationery dreams come true!</h4>
+    </section>
+
+    <section id="featured-products">
+        <hr>
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <div class="product-item" data-price="10">
+                <img src="pilotpen.jpg" alt="pilot ballpoint pen">
+                <h3>RM 4.90 </h3>
+                <p>Pilot G2 0.7 Ballpoint Pen.</p>
+            </div>
+            <div class="product-item" data-price="15">
+                <img src="simplenotebook.jpg" alt="simple notebook">
+                <h3>RM 4.60 </h3>
+                <p>Colourful Notebook.</p>
+            </div>
+            <div class="product-item" data-price="20">
+                <img src="washitapes.jpg" alt="washi tapes">
+                <h3> RM 1.50 </h3>
+                <p>Grid Washi Tapes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="papers">
+
+     <h1>Papers & Notebooks</h1>
+     <table style="width:100%">
+    <tr>
+      <th>Products</th>
+      <th>Image</th>
+      <th>Price</th>
+    </tr>
+
+    <tr>
+      <td>IK YELLOW A4 Paper 500s (70/80gsm) </td>
+      <td><img src="a4yellow.jpg" alt="A4 paper"></td>
+      <td>RM 12.50</td>
+    </tr>
+    <tr>
+        <td>MASTER PRINT Dot Pad</td>
+        <td><img src="dotpad.jpg" alt="Master Print Dot Pad"></td>
+        <td>RM 6.30</td>
+    </tr>
+    <tr>
+        <td>MASTER PRINT Grid Pad</td>
+        <td><img src="gridpad.jpg" alt="Master Print Grid Pad"></td>
+        <td>RM 7.00</td>
+    </tr>
+    <tr>
+        <td>MASTER PRINT Blank Pad</td>
+        <td><img src="blankpad.jpg" alt="Master Print Blank Pad"></td>
+        <td>RM 6.00</td>
+    </tr>
+    <tr>
+        <td>Rocky's Simple Notebook</td>
+        <td><img src="notebook.jpg" alt="colourful notebook"></td>
+        <td>RM 15.00</td>
+    </tr>
+    <tr>
+        <td>Cute Kawaii Notebook 120 pages</td>
+        <td><img src="cutenotebook.jpg" alt="Cute Notebook"></td>
+        <td>RM 12.00</td>
+    </tr>
+    <tr>
+        <td>Simple Leather Notebook</td>
+        <td><img src="leather.jpg" alt="Leather Notebook"></td>
+        <td>RM 22.00</td>
+    </tr>
+    </table>
+    </section>
+
+    <section id="pen">
+
+        <h1>Pens & Pencils</h1>
+     <table style="width:100%">
+    <tr>
+      <th>Products</th>
+      <th>Image</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>PILOT Rexgrip Mechanical Pencil.</td>
+      <td><img src="pilotpencil.jpg" alt="pilot mechanical pencil"></td>
+      <td>RM 9.50</td>
+    </tr>
+    <tr>
+      <td>PENTEL Ballpoint Pen</td>
+      <td><img src="BX420-A2Mb.png" alt="black ballpoint pen"></td>
+      <td>RM 4.50</td>
+    </tr>
+    <tr>
+      <td>Pilot G2 0.7 Ballpoint Pen </td>
+      <td><img src="pilotpen.jpg" alt="pilot ballpoint pen">
+      <td>RM 4.90</td>
+    </tr>
+    <tr>
+        <td>CELLO Coloured Ink Gel Pens</td>
+        <td><img src="61tTegsVVEL.jpg" alt="Colourful Pen"></td>
+        <td>RM 18.90</td>
+    </tr>
+    <tr>
+        <td>FABER CASTELL Colour Pencil</td>
+        <td><img src="pencilfaber.jpg" alt="colour pencil"></td>
+        <td>RM 30.00</td>
+    </tr>
+     </table>
+    </section>
+
+    <section id="decorations">
+
+        <h1>Decorations</h1>
+         <table style="width:100%">
+    <tr>
+      <th>Products</th>
+      <th>Image</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Frog Sticker</td>
+      <td><img src="frog.jpg" alt="Frog Stickers"></td>
+      <td>RM 5.00</td>
+    </tr>
+    <tr>
+        <td>Paper Clips</td>
+        <td><img src="paperclips.jpg" alt="Paper Clips"></td>
+        <td>RM 11.60</td>
+    </tr>
+    <tr>
+      <td>12 sheets Quote Stickers</td>
+      <td><img src="quotesticker.jpg" alt="12 sheets Quote Stickers"></td>
+      <td>RM 7.90</td>
+    </tr>
+    <tr>
+      <td>Mirror Selfie Stickers </td>
+      <td><img src="stickers.jpg" alt="Mirror Selfie Stickers"></td>
+      <td>RM 5.50</td>
+    </tr>
+    <tr>
+        <td>Washi Tapes For Journalling</td>
+        <td><img src="washitapes.jpg" alt="washi tapes"></td>
+        <td>RM 1.50</td>
+    </tr>
+    <tr>
+        <td> Flower Washi Tapes For Journalling</td>
+        <td><img src="flowertapes.jpg" alt="washi tapes"></td>
+        <td>RM 3.50</td>
+    </tr>
+    <tr>
+        <td> Alphabet Stickers</td>
+        <td><img src="alphabet.jpg" alt="alphabet stickers"></td>
+        <td>RM 3.00</td>
+    </tr>
+    <tr>
+        <td> Satin Ribbon</td>
+        <td><img src="ribbon.jpg" alt="Satin Ribbon"></td>
+        <td>RM 4.90</td>
+    </tr>
+    <tr>
+        <td> Lace </td>
+        <td><img src="lace.jpg" alt="Lace"></td>
+        <td>RM 6.90</td>
+    </tr>
+  </table>
+    </section> 
+
+   <section id="branch">
+    <hr>
+    <h2>Visit Our Store :</h2>
+    <p>Paper People Stationery <br>
+        123 Harmony Lane<br>
+        Kuala Lumpur, 50050<br>
+        Malaysia<br>
+        <br>
+        <a href="tel:+1234567890" class="call-button">012 34567890</a> <br>
+        <br>
+        We can't wait to see you!</p>
+</section>
+
+    <section id="contact">
+        <hr>
+        <h2>Stay connected with us !</h2><br>
+        <div class="icon-link"></div>
+        <img src="instagram.png" alt="Instagram icon" style="width: 24px; height: 24px;">
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+    <div>
+        <img src="facebook.png" alt="Facebook icon" style="width: 24px; height: 24px;">
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    </div>
+    <div>
+        <img src="email.jpg" alt="Email icon" style="width: 24px; height: 24px;">
+        <a href="mailto:info@studioinspired.com">Email</a>
+    </div>
+        <br><br>
+
+        <h2>Reach Us :</h2><br>
+        <div>
+            <form method="post" onsubmit="return submitForm()">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="youremail@gmail.com"><br><br>
+        
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea><br><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Paper People</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
